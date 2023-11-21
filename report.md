@@ -37,6 +37,6 @@ Due to a skew in the class distribution (i.e., the data had many more healthy lo
 
 ## Summary
 
-Model 2 is outperforms Model 1, as demonstrated by the higher recall score, which indicates a lower false negative rate and therefore a lessened risk of approving a high-risk loan (because there is a lessened risk of falsely predicting loans to be healthy). This improvement results in a greater accuracy score, which measures the overall percentage of correct predictions. 
+Model 2 outperforms Model 1, as demonstrated by the higher recall score, which indicates a lower false negative rate and therefore a lessened risk of approving a high-risk loan (because there is a lessened risk of falsely predicting loans to be healthy). This improvement results in a greater accuracy score, which measures the overall percentage of correct predictions. 
 
 If the goal of the model is to minimize risk of funding high-risk loans while simultaneously maximizing the number of funded healthy loans, Model 2 may be satisfactory. Less than 1% of all high-risk loan applications would be approved when based solely on the model's predictions (4 out of 619 in the model's confusion matrix test data). Further, approximately 0.6% of all healthy loans would be denied (116 out of 18,765 in the model's confusion matrix test data).
